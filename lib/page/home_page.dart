@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
           child: MaterialButton(
             color: Colors.blueAccent,
             onPressed: () {
-              _callDetailsPage4();
+              _callDetailsPage();
             },
             child: Text(text),
           ),
